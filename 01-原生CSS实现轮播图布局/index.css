@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 590px;
+    height: 470px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .carousel {
+    width: 99999999px;
+}
+
+.container .carousel img {
+    float: left;
+}
+
+.container .prev, .next {
+    width: 72px;
+    height: 72px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(169, 169, 169, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    cursor: pointer;
+}
+
+.container .prev {
+    background-image: url("./assets/img/prev.png");
+    left: 20px;
+}
+
+.container .next {
+    background-image: url("./assets/img/next.png");
+    right: 20px;
+}
+
+.container .pointer {
+    background-color: rgba(169, 169, 169, 0.5);
+    padding: 0 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: calc(50% - 40px);
+    bottom: 20px;
+}
+
+.container .pointer ul {
+    list-style: none;
+}
+
+.container .pointer ul li {
+    color: silver;
+    display: block;
+    float: left;
+    margin: 0 5px;
+}
+
+.container .pointer ul li a {
+    text-decoration: none;
+    color: silver;
+}
+
+.container .pointer ul li .active {
+    color: white;
+}

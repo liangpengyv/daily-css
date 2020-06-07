@@ -1,11 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>仿“在行”首页</title>
+
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="nav">
+            <div class="container">
+                <img src="https://ff-static.zaih.cn/falcon-web/img/2067272.png" alt="zaih-logo">
+                <input id="search" class="search-none" type="text" placeholder="搜索行家、话题、服务">
+                <ul>
+                    <li><a href="">递爪</a></li>
+                    <li><a href="">成为行家</a></li>
+                    <li><a href="">手机端</a></li>
+                    <li><a href="">登录/注册</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="banner">
+            <h1>约高手<span>一对一聊天</span></h1>
+            <h1>邂逅你的专属机遇</h1>
+            <input type="text" placeholder="你想聊的话题：公关传播 装修 方法论">
+        </div>
+    </header>
+
+    <nav id="category-nav-container">
+        <ul id="category-nav">
+            <li class="menu-01">
+                <span>心理</span>
+                <ul class="sub-menu-01">
+                    <li><a href="">个人成长</a></li>
+                    <li><a href="">情绪压力</a></li>
+                    <li><a href="">人际关系</a></li>
+                    <li><a href="">两性关系</a></li>
+                    <li><a href="">家庭关系</a></li>
+                    <li><a href="">心理咨询师</a></li>
+                    <li><a href="">心理学</a></li>
+                    <li><a href="">职场心理</a></li>
+                </ul>
+            </li>
+            <li class="menu-02">
+                <span>职业发展</span>
+                <ul class="sub-menu-02" style="margin-left: -118px;">
+                    <li><a href="">经营管理</a></li>
+                    <li><a href="">项目管理</a></li>
+                    <li><a href="">职场转型</a></li>
+                    <li><a href="">职场晋升</a></li>
+                    <li><a href="">职场技能</a></li>
+                    <li><a href="">求职</a></li>
+                    <li><a href="">职业规划</a></li>
+                    <li><a href="">简历</a></li>
+                    <li><a href="">面试</a></li>
+                    <li><a href="">个人品牌</a></li>
+                    <li><a href="">人际交往</a></li>
+                    <li><a href="">沟通</a></li>
+                    <li><a href="">写作</a></li>
+                    <li><a href="">演讲</a></li>
+                    <li><a href="">办公软件</a></li>
+                    <li><a href="">时间管理</a></li>
+                    <li><a href="">上市融资</a></li>
+                    <li><a href="">企业投资</a></li>
+                    <li><a href="">企业战略</a></li>
+                    <li><a href="">团队管理</a></li>
+                </ul>
+            </li>
+            <li class="menu-03">
+                <span>行业经验</span>
+                <ul class="sub-menu-03" style="margin-left: -236px;">
+                    <li><a href="">贸易</a></li>
+                    <li><a href="">市场</a></li>
+                    <li><a href="">销售</a></li>
+                    <li><a href="">人力</a></li>
+                    <li><a href="">财务</a></li>
+                    <li><a href="">其他岗位</a></li>
+                    <li><a href="">金融</a></li>
+                    <li><a href="">影视</a></li>
+                    <li><a href="">传媒</a></li>
+                    <li><a href="">图书出版</a></li>
+                    <li><a href="">餐饮</a></li>
+                    <li><a href="">零售</a></li>
+                    <li><a href="">法律</a></li>
+                    <li><a href="">公益</a></li>
+                    <li><a href="">其他行业</a></li>
+                    <li><a href="">工业设计</a></li>
+                    <li><a href="">建筑设计</a></li>
+                    <li><a href="">室内设计</a></li>
+                    <li><a href="">平面设计</a></li>
+                    <li><a href="">品牌管理</a></li>
+                    <li><a href="">新媒体营销</a></li>
+                    <li><a href="">媒介投放</a></li>
+                    <li><a href="">广告创意</a></li>
+                    <li><a href="">公关传播</a></li>
+                    <li><a href="">商业合作</a></li>
+                    <li><a href="">市场调研</a></li>
+                    <li><a href="">应用推广</a></li>
+                    <li><a href="">整合营销</a></li>
+                    <li><a href="">医疗咨询</a></li>
+                    <li><a href="">医疗软件</a></li>
+                    <li><a href="">农业</a></li>
+                    <li><a href="">医药类</a></li>
+                </ul>
+            </li>
+            <li class="menu-04">
+                <span>互联网+</span>
+                <ul class="sub-menu-04" style="margin-left: -354px;">
+                    <li><a href="">个人成长</a></li>
+                    <li><a href="">情绪压力</a></li>
+                    <li><a href="">人际关系</a></li>
+                    <li><a href="">两性关系</a></li>
+                    <li><a href="">家庭关系</a></li>
+                    <li><a href="">心理咨询师</a></li>
+                    <li><a href="">心理学</a></li>
+                    <li><a href="">职场心理</a></li>
+                </ul>
+            </li>
+            <li class="menu-05">
+                <span>生活服务</span>
+                <ul class="sub-menu-05" style="margin-left: -472px;">
+                    <li><a href="">经营管理</a></li>
+                    <li><a href="">项目管理</a></li>
+                    <li><a href="">职场转型</a></li>
+                    <li><a href="">职场晋升</a></li>
+                    <li><a href="">职场技能</a></li>
+                    <li><a href="">求职</a></li>
+                    <li><a href="">职业规划</a></li>
+                    <li><a href="">简历</a></li>
+                    <li><a href="">面试</a></li>
+                    <li><a href="">个人品牌</a></li>
+                    <li><a href="">人际交往</a></li>
+                    <li><a href="">沟通</a></li>
+                    <li><a href="">写作</a></li>
+                    <li><a href="">演讲</a></li>
+                    <li><a href="">办公软件</a></li>
+                    <li><a href="">时间管理</a></li>
+                    <li><a href="">上市融资</a></li>
+                    <li><a href="">企业投资</a></li>
+                    <li><a href="">企业战略</a></li>
+                    <li><a href="">团队管理</a></li>
+                </ul>
+            </li>
+            <li class="menu-06">
+                <span>创业融资</span>
+                <ul class="sub-menu-06" style="margin-left: -590px;">
+                    <li><a href="">贸易</a></li>
+                    <li><a href="">市场</a></li>
+                    <li><a href="">销售</a></li>
+                    <li><a href="">人力</a></li>
+                    <li><a href="">财务</a></li>
+                    <li><a href="">其他岗位</a></li>
+                    <li><a href="">金融</a></li>
+                    <li><a href="">影视</a></li>
+                    <li><a href="">传媒</a></li>
+                    <li><a href="">图书出版</a></li>
+                    <li><a href="">餐饮</a></li>
+                    <li><a href="">零售</a></li>
+                    <li><a href="">法律</a></li>
+                    <li><a href="">公益</a></li>
+                    <li><a href="">其他行业</a></li>
+                    <li><a href="">工业设计</a></li>
+                    <li><a href="">建筑设计</a></li>
+                    <li><a href="">室内设计</a></li>
+                    <li><a href="">平面设计</a></li>
+                    <li><a href="">品牌管理</a></li>
+                    <li><a href="">新媒体营销</a></li>
+                    <li><a href="">媒介投放</a></li>
+                    <li><a href="">广告创意</a></li>
+                    <li><a href="">公关传播</a></li>
+                    <li><a href="">商业合作</a></li>
+                    <li><a href="">市场调研</a></li>
+                    <li><a href="">应用推广</a></li>
+                    <li><a href="">整合营销</a></li>
+                    <li><a href="">医疗咨询</a></li>
+                    <li><a href="">医疗软件</a></li>
+                    <li><a href="">农业</a></li>
+                    <li><a href="">医药类</a></li>
+                </ul>
+            </li>
+            <li class="menu-07">
+                <span>教育学习</span>
+                <ul class="sub-menu-07" style="margin-left: -708px;">
+                    <li><a href="">个人成长</a></li>
+                    <li><a href="">情绪压力</a></li>
+                    <li><a href="">人际关系</a></li>
+                    <li><a href="">两性关系</a></li>
+                    <li><a href="">家庭关系</a></li>
+                    <li><a href="">心理咨询师</a></li>
+                    <li><a href="">心理学</a></li>
+                    <li><a href="">职场心理</a></li>
+                </ul>
+            </li>
+            <li class="menu-08">
+                <span>投资理财</span>
+                <ul class="sub-menu-08" style="margin-left: -826px;">
+                    <li><a href="">经营管理</a></li>
+                    <li><a href="">项目管理</a></li>
+                    <li><a href="">职场转型</a></li>
+                    <li><a href="">职场晋升</a></li>
+                    <li><a href="">职场技能</a></li>
+                    <li><a href="">求职</a></li>
+                    <li><a href="">职业规划</a></li>
+                    <li><a href="">简历</a></li>
+                    <li><a href="">面试</a></li>
+                    <li><a href="">个人品牌</a></li>
+                    <li><a href="">人际交往</a></li>
+                    <li><a href="">沟通</a></li>
+                    <li><a href="">写作</a></li>
+                    <li><a href="">演讲</a></li>
+                    <li><a href="">办公软件</a></li>
+                    <li><a href="">时间管理</a></li>
+                    <li><a href="">上市融资</a></li>
+                    <li><a href="">企业投资</a></li>
+                    <li><a href="">企业战略</a></li>
+                    <li><a href="">团队管理</a></li>
+                </ul>
+            </li>
+            <li class="menu-09">
+                <span>其他</span>
+                <ul class="sub-menu-09" style="margin-left: -944px;">
+                    <li><a href="">贸易</a></li>
+                    <li><a href="">市场</a></li>
+                    <li><a href="">销售</a></li>
+                    <li><a href="">人力</a></li>
+                    <li><a href="">财务</a></li>
+                    <li><a href="">其他岗位</a></li>
+                    <li><a href="">金融</a></li>
+                    <li><a href="">影视</a></li>
+                    <li><a href="">传媒</a></li>
+                    <li><a href="">图书出版</a></li>
+                    <li><a href="">餐饮</a></li>
+                    <li><a href="">零售</a></li>
+                    <li><a href="">法律</a></li>
+                    <li><a href="">公益</a></li>
+                    <li><a href="">其他行业</a></li>
+                    <li><a href="">工业设计</a></li>
+                    <li><a href="">建筑设计</a></li>
+                    <li><a href="">室内设计</a></li>
+                    <li><a href="">平面设计</a></li>
+                    <li><a href="">品牌管理</a></li>
+                    <li><a href="">新媒体营销</a></li>
+                    <li><a href="">媒介投放</a></li>
+                    <li><a href="">广告创意</a></li>
+                    <li><a href="">公关传播</a></li>
+                    <li><a href="">商业合作</a></li>
+                    <li><a href="">市场调研</a></li>
+                    <li><a href="">应用推广</a></li>
+                    <li><a href="">整合营销</a></li>
+                    <li><a href="">医疗咨询</a></li>
+                    <li><a href="">医疗软件</a></li>
+                    <li><a href="">农业</a></li>
+                    <li><a href="">医药类</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section class="expert-list">
+            <ul>
+                <li>
+                    <div class="avatar" style="background-image: url(https://medias.zaih.com/tutor_84794733_avatar_1080_vMXbx);">
+                        <div class="wrapper">
+                            <h3>TA擅长的话题</h3>
+                            <p># 互联网人转型做风投的第一课</p>
+                            <p># 智能硬件创业者，你的项目能拿到融资吗</p>
+                            <p># 如何一个月内拿到投资</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">吴炳见<i></i><span>北京</span></h3>
+                        <p class="title">险峰长青副总裁</p>
+                        <p class="description"><span>235</span> 人约聊过 • 评分 <span>9.1</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="avatar" style="background-image: url(https://medias.zaih.com/Fi51KKdEj9RLk-OcNANd1qaMbpSi);">
+                        <div class="wrapper">
+                            <h3>TA擅长的话题</h3>
+                            <p># 互联网人转型做风投的第一课</p>
+                            <p># 智能硬件创业者，你的项目能拿到融资吗</p>
+                            <p># 如何一个月内拿到投资</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">吴炳见<i></i><span>北京</span></h3>
+                        <p class="title">险峰长青副总裁</p>
+                        <p class="description"><span>235</span> 人约聊过 • 评分 <span>9.1</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="avatar" style="background-image: url(https://medias.zaih.com/FqtW-scRcXtgfsYchCiUo0YvCbhR);">
+                        <div class="wrapper">
+                            <h3>TA擅长的话题</h3>
+                            <p># 互联网人转型做风投的第一课</p>
+                            <p># 智能硬件创业者，你的项目能拿到融资吗</p>
+                            <p># 如何一个月内拿到投资</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">吴炳见<i></i><span>北京</span></h3>
+                        <p class="title">险峰长青副总裁</p>
+                        <p class="description"><span>235</span> 人约聊过 • 评分 <span>9.1</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="avatar" style="background-image: url(https://medias.zaih.com/FogVJo0B2ciZ6GgKJEW23hpNCFvc);">
+                        <div class="wrapper">
+                            <h3>TA擅长的话题</h3>
+                            <p># 互联网人转型做风投的第一课</p>
+                            <p># 智能硬件创业者，你的项目能拿到融资吗</p>
+                            <p># 如何一个月内拿到投资</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">吴炳见<i></i><span>北京</span></h3>
+                        <p class="title">险峰长青副总裁</p>
+                        <p class="description"><span>235</span> 人约聊过 • 评分 <span>9.1</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="avatar" style="background-image: url(https://medias.zaih.com/tutor_84794733_avatar_1080_vMXbx);">
+                        <div class="wrapper">
+                            <h3>TA擅长的话题</h3>
+                            <p># 互联网人转型做风投的第一课</p>
+                            <p># 智能硬件创业者，你的项目能拿到融资吗</p>
+                            <p># 如何一个月内拿到投资</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">吴炳见<i></i><span>北京</span></h3>
+                        <p class="title">险峰长青副总裁</p>
+                        <p class="description"><span>235</span> 人约聊过 • 评分 <span>9.1</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="avatar" style="background-image: url(https://medias.zaih.com/tutor_84794733_avatar_1080_vMXbx);">
+                        <div class="wrapper">
+                            <h3>TA擅长的话题</h3>
+                            <p># 互联网人转型做风投的第一课</p>
+                            <p># 智能硬件创业者，你的项目能拿到融资吗</p>
+                            <p># 如何一个月内拿到投资</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">吴炳见<i></i><span>北京</span></h3>
+                        <p class="title">险峰长青副总裁</p>
+                        <p class="description"><span>235</span> 人约聊过 • 评分 <span>9.1</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="avatar" style="background-image: url(https://medias.zaih.com/FsN85RGRu_vGDhpSYxIl2m46TAFc);">
+                        <div class="wrapper">
+                            <h3>TA擅长的话题</h3>
+                            <p># 互联网人转型做风投的第一课</p>
+                            <p># 智能硬件创业者，你的项目能拿到融资吗</p>
+                            <p># 如何一个月内拿到投资</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">吴炳见<i></i><span>北京</span></h3>
+                        <p class="title">险峰长青副总裁</p>
+                        <p class="description"><span>235</span> 人约聊过 • 评分 <span>9.1</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="avatar" style="background-image: url(https://medias.zaih.com/tutor_84798633_avatar_1080_qd2gD);">
+                        <div class="wrapper">
+                            <h3>TA擅长的话题</h3>
+                            <p># 互联网人转型做风投的第一课</p>
+                            <p># 智能硬件创业者，你的项目能拿到融资吗</p>
+                            <p># 如何一个月内拿到投资</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">吴炳见<i></i><span>北京</span></h3>
+                        <p class="title">险峰长青副总裁</p>
+                        <p class="description"><span>235</span> 人约聊过 • 评分 <span>9.1</span></p>
+                    </div>
+                </li>
+            </ul>
+            <button>更多行家</button>
+        </section>
+
+        <section class="story-list">
+            <h1>在行故事</h1>
+            <div>用【在行】找古里安王大厂工作</div>
+            <div>首获优秀员工、投资项目</div>
+            <div>跟行家学做面条开面馆</div>
+            <div>约行家聊整理收纳</div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <div>客户服务</div>
+            <div>孵化投资</div>
+            <div>二维码</div>
+        </div>
+        <div>
+            <div>严格的行家入选标准</div>
+            <div>数万行家分布全领域</div>
+            <div>一对一个性化交流指导</div>
+            <div>已有百万用户受益</div>
+        </div>
+        <div>
+            <div>
+                <a href="">首页</a>
+                <a href="">关于我们</a>
+                <a href="">帮助</a>
+            </div>
+            <p>GUOKR © 2019 LOVINGLY MADE IN BEIJING 北京我最在行信息技术有限公司</p>
+            <p>京ICP证 京B2-20160131号 | <a href="">京ICP备16011529号-1</a> | 京公网安备 11010502031582号 | 全国文化市场监督举报电话：12318</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        window.onscroll =
+            function scroll() {
+                var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop; //获取当前窗口距顶部的高度
+                if (scrollTop > 395) {
+                    document.getElementById("search").className = "search";
+                    document.getElementById("category-nav-container").className = "nav-fixed-container";
+                    document.getElementById("category-nav").className = "nav-fixed";
+                    document.getElementById("main").className = "main";
+                } else {
+                    document.getElementById("search").className = "search-none";
+                    document.getElementById("category-nav-container").className = "";
+                    document.getElementById("category-nav").className = "";
+                    document.getElementById("main").className = "";
+                }
+            };
+    </script>
 </body>
+
 </html>

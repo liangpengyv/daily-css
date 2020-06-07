@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+header .nav {
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ececec;
+    position: fixed;
+}
+
+header .nav .container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header .nav .container img {
+    width: 66px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 44px;
+    float: left;
+}
+
+header .nav .container input {
+    width: 464px;
+    height: 48px;
+    margin-left: 76px;
+    margin-top: 6px;
+    padding: 0 15px;
+    font-size: 14px;
+    background-color: #f6f6f6;
+    border: 0px;
+    outline: none;
+    float: left;
+}
+
+header .nav .container .search {
+    display: block;
+}
+
+header .nav .container .search-none {
+    display: none;
+}
+
+header .nav .container ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 28px;
+    overflow: hidden;
+}
+
+header .nav .container ul li {
+    float: left;
+    text-align: center;
+    margin: 0 5px;
+}
+
+header .nav .container ul li a {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-size: 14px;
+    display: inline-block;
+    width: 80px;
+    line-height: 60px;
+}
+
+header .nav .container ul li a:hover {
+    color: #fc6049;
+}
+
+header .banner {
+    padding: 121px 0 60px;
+    width: 1068px;
+    margin: 0 auto;
+}
+
+header .banner h1 {
+    font-size: 60px;
+    margin: 5px;
+    letter-spacing: 5px;
+    color: #333333;
+}
+
+header .banner h1 span {
+    color: #fc6049;
+}
+
+header .banner input {
+    width: 805px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 0 15px;
+    font-size: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 15px #f0f0f0;
+    border: 0px;
+    outline: none;
+}
+
+nav {
+    width: 1068px;
+    height: 54px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ececec;
+}
+
+.nav-fixed-container {
+    position: fixed;
+    top: 60px;
+    background: #ffffff;
+    margin-top: 1px;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav .nav-fixed {
+    width: 1068px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    float: left;
+    text-align: center;
+    width: 118px;
+}
+
+nav ul li span {
+    font-size: 14px;
+    display: inline-block;
+    width: 100px;
+    line-height: 53px;
+    cursor: pointer;
+    color: #333333;
+    font-weight: bolder;
+}
+
+nav ul li span:hover {
+    color: #fc6049;
+}
+
+nav ul li ul {
+    background-color: #ffffff;
+    margin-top: 2px;
+    width: 1068px;
+    display: none;
+}
+
+nav ul li ul li {
+    float: left;
+    text-align: center;
+    width: 118px;
+}
+
+nav ul li ul li a {
+    text-decoration: none;
+    color: #959795;
+    font-size: 14px;
+    display: inline-block;
+    width: 100px;
+    line-height: 53px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-weight: unset;
+}
+
+nav ul li ul li a:hover {
+    color: #fc6049;
+}
+
+nav .menu-01:hover .sub-menu-01, nav .menu-02:hover .sub-menu-02, nav .menu-03:hover .sub-menu-03, nav .menu-04:hover .sub-menu-04, nav .menu-05:hover .sub-menu-05, nav .menu-06:hover .sub-menu-06, nav .menu-07:hover .sub-menu-07, nav .menu-08:hover .sub-menu-08, nav .menu-09:hover .sub-menu-09 {
+    display: block;
+}
+
+main {
+    width: 1068px;
+    margin: 0 auto;
+    margin-bottom: 10000px;
+}
+
+.main {
+    margin-top: 55px;
+}
+
+main .expert-list ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+main .expert-list ul li {
+    float: left;
+    margin-right: 48px;
+    height: 361px;
+}
+
+main .expert-list ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+main .expert-list ul li:hover {
+    cursor: pointer;
+}
+
+main .expert-list ul li:hover .avatar {
+    box-shadow: 5px 5px 15px #eeeeee;
+    color: #ffffff;
+}
+
+main .expert-list ul li:hover .avatar .wrapper {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main .expert-list ul li:hover .info {
+    box-shadow: 0 2px 15px #eeeeee;
+}
+
+main .expert-list ul li .avatar {
+    width: 230px;
+    height: 230px;
+    margin-top: 42px;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+main .expert-list ul li .avatar .wrapper {
+    width: 206px;
+    height: 210px;
+    padding: 20px 12px 0;
+    opacity: 0;
+}
+
+main .expert-list ul li .avatar .wrapper h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+main .expert-list ul li .avatar .wrapper p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+main .expert-list ul li .info {
+    height: 88px;
+    padding: 8px 12px 13px;
+}
+
+main .expert-list ul li .info .name {
+    font-size: 20px;
+    color: #333333;
+}
+
+main .expert-list ul li .info .name span {
+    font-size: 12px;
+    color: #c4c4c4;
+    margin-left: 12px;
+}
+
+main .expert-list ul li .info .title {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+main .expert-list ul li .info .description {
+    font-size: 12px;
+}

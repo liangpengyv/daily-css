@@ -110,6 +110,8 @@ nav {
     height: 54px;
     margin: 0 auto;
     border-bottom: 1px solid #ececec;
+    position: relative;
+    z-index: 999;
 }
 
 .nav-fixed-container {
